@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Evolution of Web Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Evolution of Web Layout</h1>
+    </header>
+    <div class="container">
+        <nav><a href="index.html">HOME</a>
+            <a href="table.html" id="current">TABLES</a>
+            <a href="css.html">CSS</a>
+            <a href="frameworks.html">FREAMEWORKS
+            </a>
+            <a href="grid.html">GRID</a>
+        </nav>
+
+        <main>
+            <h2>A Brief History of Layout on the Web</h2>
+            <section>
+                <h2>Table Layout</h2>
+                <table>
+                    <tr>
+                        <td>cell 1</td>
+                        <td>cell 2</td>
+                        <td>cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>cell 1</td>
+                        <td>cell 2</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>cell 1</td>
+                                    <td>cell 2</td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                </table>
+                <p>&nbsp;</p>
+            </section>
+            <article>
+                <H3>Early Web Layout</H3>
+                <p>In the early days of the web, CSS was not around or not widely supported by browsers. Web page content could only have left, center, or right align as native alignment in HTML> All styling was done in HTML and was not semantic. If you wanted something to be <strong>Bold</strong> you would use <code>&lt;b&gt;</code> which would change the formatting but had no meaning. HTML is based on Standard Generalized Markup Language (SGML) which is the formatting language behind word processing programs. It was not really equipped for formatting.</p>
+                <p>Table layout subverted the goal of tables, which should be only used for tabular data in today's web design, and turned it into a highly effective layout tool. It provided higher precision for layout because you could left, center, or right align in each table cell. If a cell had no content, it would collapse. To fix this, designers would have a 1px by 1px transparent gif that they would use as a "shim" by putting it in an empty cell and specifying the display size that they wanted. </p>
+                <p>&nbsp;</p>
+
+            </article>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>

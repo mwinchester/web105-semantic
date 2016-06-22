@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Evolution of Web Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Evolution of Web Layout </h1>
+    </header>
+    <div class="container">
+        <nav><a href="index.html">HOME</a>
+            <a href="table.html">TABLES</a>
+            <a href="css.html" id="current">CSS</a>
+            <a href="frameworks.html">FREAMEWORKS
+            </a>
+            <a href="grid.html">GRID</a>
+        </nav>
+
+        <main>
+            <h2>A Brief History of Layout on the Web</h2>
+            <section>
+                <h2>CSS Layout</h2>
+                <p>&nbsp;</p>
+                <div class="splash" style="float: left;"></div>
+                <p>When we started to use CSS for layout, we had the ability to break the normal block document flow. When you are creating normal pages in HTML, every item will be either an inline or a block layout element. An inline element like <code>&lt;img&gt;</code> will allow you to stack images next to each other from left to right. Block elements, like <code>&lt;p&gt;</code> stack from top to bottom in the order that they are coded.</p>
+                <p style="clear:left;">&nbsp;</p>
+                <div class="splash" style="float: right; "></div>
+                <p>CSS will allow you to break that structure by using the <code>float:right;</code> or <code>float:left;</code> command. This literaly makes the content that would appear below it float up next to it. When you are done and want to return to the normal document flow you have to use a <code>clear:right;</code> <code>clear:left;</code> or <code>clear:both;</code>.</p>
+                <p>In this page the purple blocks are <code>&lt;div&gt;</code> sections. The first one floats to the left, and you can see that the paragraph coded after it floats up next to it. The second <code>&lt;div&gt;</code> floats to the right.</p>
+
+                <p style="clear:both;">&nbsp;</p>
+            </section>
+            <article>
+                <H3>CSS Layout with Floats</H3>
+                <p>Breaking the document flow can have some unintended consequences that you need to fix. You can read about it here: <a href="http://learnlayout.com/clearfix.html" target=_blank>learnlayout.com/clearfix.html</a></p>
+                <p>&nbsp;</p>
+
+            </article>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
